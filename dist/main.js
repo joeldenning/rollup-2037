@@ -79,7 +79,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var rx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rx */ \"./node_modules/rx/dist/rx.all.js\");\n/* harmony import */ var rx__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(rx__WEBPACK_IMPORTED_MODULE_0__);\n/* this import works with webpack even though rxjs does the following:\n * module.exports = {Observable: ...}\n *\n * See https://github.com/Reactive-Extensions/RxJS/blob/master/dist/rx.all.js#L12376-L12380 for more details.\n */\n\n\nrx__WEBPACK_IMPORTED_MODULE_0__[\"Observable\"]\n  .just('hi')\n  .subscribe(val => {\n    console.log('val', val)\n  })\n\n\n//# sourceURL=webpack:///./index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var rx__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! rx */ \"./node_modules/rx/dist/rx.all.js\");\n/* harmony import */ var rx__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(rx__WEBPACK_IMPORTED_MODULE_0__);\n\n\nrx__WEBPACK_IMPORTED_MODULE_0___default.a.Observable\n  .just('hi')\n  .subscribe(val => {\n    console.log('val', val)\n  })\n\n\n//# sourceURL=webpack:///./index.js?");
 
 /***/ }),
 
